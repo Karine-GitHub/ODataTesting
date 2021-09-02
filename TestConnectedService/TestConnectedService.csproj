@@ -18,8 +18,11 @@
     <PackageReference Include="Microsoft.OData.Core" Version="7.9.0" />
     <PackageReference Include="Microsoft.OData.Edm" Version="7.9.0" />
     <PackageReference Include="Microsoft.Spatial" Version="7.9.0" />
-    <PackageReference Include="RNC.Tools.CertificateManager" Version="1.0.0" />
     <PackageReference Include="System.Text.Json" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RNC.Tools.CertificateManager\RNC.Tools.CertificateManager.csproj" />
   </ItemGroup>
 
   <ItemGroup>
